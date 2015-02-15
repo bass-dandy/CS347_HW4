@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E84562C-89B8-5603-5906-C209136E2545" name="SIM_Person">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>ED55A549-3033-AA36-9B25-37AD103A0D0B</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="B782B4D5-AFF2-769B-53AB-A47242EA803D">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>035BEF0F-22BE-BB79-7B6C-7056136B5197</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="02C18422-81A8-7E8D-CA20-FE30B6A7187A">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>FCC02459-FF97-1BAE-73C7-3748F99D2E44</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="E0153033-CD56-ECBF-FB9C-219BD66093E8">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>50C7868A-1D9C-C9B8-12EF-708A898253C6</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="4A4EF904-C665-9BBF-402A-E8C9B8D8BE92">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>4BF73B18-5688-8BB5-13CE-D8A2F01F72C3</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="2FB382FF-F6DA-D02B-345C-75C1B277D672">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>62F8FD8F-DA4F-D77C-D094-8804D065E647</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="30534A36-9D37-2BB5-C748-9EF34211A0A4">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>8AD03A6D-8BB1-3CCD-4ED2-A93C5311EB17</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="1C25B215-5D5A-31E5-689A-FAACBC51D9F4">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>CF1AEBE3-9023-CB2D-C9A7-5A6D8AAFBE74</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="81E4A3FE-7A7D-9237-4C39-941A6ACC358F">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>CC681844-CF0D-98A4-39C6-9CE405534706</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="BA85F657-3DD2-AE8C-8213-4EEEA392EAE5">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>A890E207-B282-02F6-566A-E0C81B886FFF</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="7E7890C0-EBE0-46EE-7F7D-2868F3EF596D">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>F848EFED-197C-7E8E-BD22-820C8C5C63AF</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="A6BE0F5C-A333-FDFC-1754-EBD5C240C8D2">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>E1C3BD28-CBFF-0E3B-934F-5DAD2369AEC8</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="764FEE28-71B3-07E5-DB40-066A6102FA11">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>173E5883-2267-C747-FA81-DD1EC0A1145B</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="60D98824-B570-929C-5D57-3B1C2BBC7FF6">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>91C01F5B-F575-6058-E8B6-1C29314E66D1</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_project_emp_pemp_id" id="4C34915B-56E2-B0FD-57E2-18768207F0C3">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>C8DB2B6F-4284-ED4A-75E6-A8D8614EDE62</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9D855F82-FFC2-CE1D-A4E1-1F262C6CC2E4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD0FFC8-56AB-A092-968B-80E75E3F5479" referredColumn="9D855F82-FFC2-CE1D-A4E1-1F262C6CC2E4"/>
+</associations>
+</Column>
+<Column name="SIM_manager_man_id" id="6805ADA0-24D8-4C07-31A7-2B65416307A3">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>02113DC0-0CEF-B576-E80C-5F518D00FF85</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>3DDE9E0A-2770-F63E-DD66-40525115D380</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="015A1E25-368A-5A83-3F76-3AA7BFFC9395" referredColumn="3DDE9E0A-2770-F63E-DD66-40525115D380"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2147218-A421-3385-1CDA-F3C096F72FA2" name="SIM_Person_PK">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>7E68D6B2-AEB0-C9D1-703B-924C840AD7ED</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B782B4D5-AFF2-769B-53AB-A47242EA803D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88BE84A8-02BB-E06D-7E0E-D6AD997041A3" name="SIM_Person__IDX">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D1E4386D-AC73-0F2C-2914-8BDD4C613B0F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4C34915B-56E2-B0FD-57E2-18768207F0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1637DEEF-5447-0C76-FC4B-D51FCA5E79E6" name="SIM_Person__IDXv1">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>423072D3-18F0-7498-F330-60E5B0BBB69D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6805ADA0-24D8-4C07-31A7-2B65416307A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76669880-450D-761B-9392-C8C948B525EF" name="SIM_Person_SIM_project_emp_FK">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>D1E4386D-AC73-0F2C-2914-8BDD4C613B0F</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C34915B-56E2-B0FD-57E2-18768207F0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C858954-7736-A9D6-15D1-0DEF1BF503F1" name="SIM_Person_SIM_manager_FK">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:51:41 UTC</createdTime>
+<generatorID>423072D3-18F0-7498-F330-60E5B0BBB69D</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6805ADA0-24D8-4C07-31A7-2B65416307A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

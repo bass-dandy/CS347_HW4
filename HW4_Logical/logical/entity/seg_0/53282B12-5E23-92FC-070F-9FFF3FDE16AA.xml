@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53282B12-5E23-92FC-070F-9FFF3FDE16AA" name="SIM_project_emp">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:29:18 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="254EECEB-0F79-AEDC-EEFD-3B26F62AED14">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:29:45 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="7F30BCF9-992F-23AC-54DF-4EE77525D307">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:30:03 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="pemp_id" id="6245B735-27E8-5F02-4C1F-0AF186B90AB4">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:33:39 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="1E3CE81B-0DBF-B248-60B3-96D7C0F89D65">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:41:18 UTC</createdTime>
+<generatorID>D1E4386D-AC73-0F2C-2914-8BDD4C613B0F</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>035BEF0F-22BE-BB79-7B6C-7056136B5197</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="CB636702-5529-725E-4608-88A15CF44E84">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:43:13 UTC</createdTime>
+<generatorID>DF3CFCB9-072D-8866-6B2A-F107737CF831</generatorID>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1023EF2C-8FF5-C783-F9BA-FAFCEDC4EA16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85CF6020-7BAC-12E9-74F0-9605B3D2B2C8" name="{entity} PK">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 20:30:30 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6245B735-27E8-5F02-4C1F-0AF186B90AB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
