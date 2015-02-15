@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="Entity" objectID="ED55A549-3033-AA36-9B25-37AD103A0D0B" name="SIM_Person" seqName="seg_0"/>
-   <object objectType="Entity" objectID="8B070CEF-3FCC-2D0D-F0DC-9A2E31473044" name="SIM_contributor" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8B070CEF-3FCC-2D0D-F0DC-9A2E31473044" name="SIM_contri" seqName="seg_0"/>
    <object objectType="Entity" objectID="A7EC9192-25B4-7D32-4B33-6DF391BB3549" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Entity" objectID="E8BBA9B5-6899-A4FE-4B99-7C381829548B" name="SIM_manager" seqName="seg_0"/>
    <object objectType="Entity" objectID="04560F18-4F30-2158-8800-F9D37CAC7DF1" name="SIM_project" seqName="seg_0"/>

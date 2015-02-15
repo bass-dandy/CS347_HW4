@@ -4,7 +4,7 @@
 <createdTime>2015-02-15 20:23:27 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,18 +20,31 @@
 <createdTime>2015-02-15 20:23:48 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="62160CF6-879A-7A7A-005C-4361D7B815D2">
+<createdBy>Kevin Chi</createdBy>
+<createdTime>2015-02-15 21:21:19 UTC</createdTime>
+<ownerDesignName>HW4_Logical</ownerDesignName>
+<engineerTo>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 </Attribute>
 <Attribute name="name" id="FCC02459-FF97-1BAE-73C7-3748F99D2E44">
 <createdBy>Kevin Chi</createdBy>
 <createdTime>2015-02-15 20:24:27 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,7 +57,7 @@
 <createdTime>2015-02-15 20:24:43 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +69,7 @@
 <createdTime>2015-02-15 20:24:54 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +82,7 @@
 <createdTime>2015-02-15 20:25:06 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,7 +94,7 @@
 <createdTime>2015-02-15 20:25:24 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,31 +107,33 @@
 <createdTime>2015-02-15 20:25:41 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 </Attribute>
 <Attribute name="state" id="CC681844-CF0D-98A4-39C6-9CE405534706">
 <createdBy>Kevin Chi</createdBy>
 <createdTime>2015-02-15 20:25:54 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 </Attribute>
 <Attribute name="zip" id="A890E207-B282-02F6-566A-E0C81B886FFF">
 <createdBy>Kevin Chi</createdBy>
 <createdTime>2015-02-15 20:26:12 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -130,7 +145,7 @@
 <createdTime>2015-02-15 20:26:23 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -141,7 +156,7 @@
 <createdTime>2015-02-15 20:26:45 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -153,7 +168,7 @@
 <createdTime>2015-02-15 20:26:55 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -165,7 +180,7 @@
 <createdTime>2015-02-15 20:27:06 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -179,7 +194,7 @@
 <generatorID>D1E4386D-AC73-0F2C-2914-8BDD4C613B0F</generatorID>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6245B735-27E8-5F02-4C1F-0AF186B90AB4</referedAttribute>
@@ -193,7 +208,7 @@
 <generatorID>423072D3-18F0-7498-F330-60E5B0BBB69D</generatorID>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>337039C0-4C9F-B46A-9E75-FDBD1892CB73</referedAttribute>
@@ -208,7 +223,7 @@
 <createdTime>2015-02-15 20:24:21 UTC</createdTime>
 <ownerDesignName>HW4_Logical</ownerDesignName>
 <engineerTo>
-<item key="AA203DD2-7810-A672-9C87-D948E154ACCF" value="true"/>
+<item key="CBD630C8-95C7-380D-7846-D3A8E169E677" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
