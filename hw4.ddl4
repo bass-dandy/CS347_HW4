@@ -1,0 +1,18 @@
+CREATE VIEW view_person as
+SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip
+FROM sim_person;
+
+CREATE VIEW view_employee as
+SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status
+FROM sim_person
+WHERE type = 'Employee';
+
+CREATE VIEW view_manager as
+SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status, title, bonus, dept_id
+FROM sim_person
+WHERE type = 'Manager';
+
+CREATE VIEW view_proj_employee as
+SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status, title, rating, dept_id
+FROM sim_person
+WHERE type = 'Employee';
