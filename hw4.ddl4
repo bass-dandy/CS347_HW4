@@ -1,3 +1,8 @@
+DROP VIEW view_person;
+DROP VIEW view_employee;
+DROP VIEW view_manager;
+DROP VIEW view_project_emp;
+
 CREATE VIEW view_person as
 SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip
 FROM sim_person;
@@ -9,10 +14,12 @@ WHERE type = 'Employee';
 
 CREATE VIEW view_manager as
 SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status, title, bonus, dept_id
-FROM sim_person
+FROM sim_person JOIN sim_manager
+ON sim_person.person_id = sim_manager.sim_person_person_id;
 WHERE type = 'Manager';
 
-CREATE VIEW view_proj_employee as
+CREATE VIEW view_project_emp as
 SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status, title, rating, dept_id
-FROM sim_person
+FROM sim_person JOIN sim_project_emp
+ON sim_person.person_id = sim_project_emp.person_person_id
 WHERE type = 'Employee';
