@@ -15,7 +15,7 @@ WHERE type = 'Employee';
 CREATE VIEW view_manager as
 SELECT person_id, name, ssnum, gender, birth_date, address, city, state, zip, emp_id, hire_date, salary, status, title, bonus, dept_id
 FROM sim_person JOIN sim_manager
-ON sim_person.person_id = sim_manager.sim_person_person_id;
+ON sim_person.person_id = sim_manager.sim_person_person_id
 WHERE type = 'Manager';
 
 CREATE VIEW view_project_emp as
