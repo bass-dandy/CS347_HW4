@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HW4Logical" id="31DC0E38-915C-995F-8AEF-17C45557C41F" version="3.5">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 19:22:37 UTC</createdTime>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>31DC0E38-915C-995F-8AEF-17C45557C41F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E52A3F53-47E0-CAE3-F7B2-DAB474412888">
+<designStoragePath>C:\Users\Christian\Dropbox\School\347\HW4\CS347_HW4\HW4_Logical</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
