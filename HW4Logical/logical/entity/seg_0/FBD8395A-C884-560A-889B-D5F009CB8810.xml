@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBD8395A-C884-560A-889B-D5F009CB8810" name="SIM_p2p">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 20:17:30 UTC</createdTime>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<importedID>4B605AB8-525B-A318-0D9F-3AA98092BB2C</importedID>
+<engineerTo>
+<item key="2993FDCB-CED7-2AC8-F575-CB2440D47B33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="p2p_id" id="EBFCC5FB-5A7B-51AE-D4A7-CA03A106B8BA">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 20:17:30 UTC</createdTime>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<importedID>CB776F9E-0402-3A61-601E-7CE9A77CBBD0</importedID>
+<engineerTo>
+<item key="2993FDCB-CED7-2AC8-F575-CB2440D47B33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="799EEF3F-5C9A-9FA8-1BF0-C1099AA09F61">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 20:17:30 UTC</createdTime>
+<generatorID>86FC1EDA-59EC-0A09-E747-F2E20FAA5055</generatorID>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<importedID>7C991D28-675B-7B6B-1EC7-4C3EAC50DD2E</importedID>
+<engineerTo>
+<item key="2993FDCB-CED7-2AC8-F575-CB2440D47B33" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>00EE22E3-BEBD-A952-D53B-4B5F18422E8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="52FA07EA-3A96-DD03-9C90-EBA4AA0F21EA">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 20:17:30 UTC</createdTime>
+<generatorID>46F60DBD-1893-2A51-7FE4-3B66263E54A8</generatorID>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<importedID>6B97430B-C458-7653-A145-DD1D0601FAB2</importedID>
+<engineerTo>
+<item key="2993FDCB-CED7-2AC8-F575-CB2440D47B33" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D62C78B7-1CFB-4243-362D-42A3FBA5C93A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="617A55CC-B545-2FEE-F3D9-4ABA6BAC99C6" name="{entity} PK">
+<createdBy>Christian</createdBy>
+<createdTime>2015-02-17 20:17:30 UTC</createdTime>
+<ownerDesignName>HW4Logical</ownerDesignName>
+<importedID>A3925DC0-6CFF-23CE-59B0-E4AE501265F7</importedID>
+<engineerTo>
+<item key="2993FDCB-CED7-2AC8-F575-CB2440D47B33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBFCC5FB-5A7B-51AE-D4A7-CA03A106B8BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
