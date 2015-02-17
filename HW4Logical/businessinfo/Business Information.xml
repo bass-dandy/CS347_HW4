@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6681D57E-41AA-FB59-CC99-B2B356F91D9C">
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B9469661-2C47-7881-BC6F-1987AB12DB8B">
 <createdBy>Christian</createdBy>
-<createdTime>2015-02-17 19:22:37 UTC</createdTime>
+<createdTime>2015-02-17 20:16:57 UTC</createdTime>
 <ownerDesignName>HW4Logical</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </BusinessInfoDesign>
